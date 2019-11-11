@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel='icon' href=https://i.pinimg.com/originals/88/84/f5/8884f50dd923182c042a485a0f421996.jpg type=image/telescope.jpg >
+        <title>Intro to HTML/CSS: Making webpages</title>
+        <style>
+            body{
+                background-color:rgb(192, 102, 83)
+            }
+            h1{
+                color:black
+            }
+            h2{
+                color:green
+            }
+            h3{
+                color:orange
+            }
+            .paragraphs{
+                color:
+            }
+            .Examples{
+                color:cyan
+            }
+            .Theory{
+                color:purple
+            }
+            .li{
+                color:blue; 
+                background-color:bisque
+            }
+            #different{
+                color:red;
+                background-color:cadetblue
+            }
+            p{
+                color:white
+            }
+            .bold{
+                color:yellow
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1><strong><em>Intro to HTML/CSS: Making webpages</em></strong></h1>
+       
+        <p>In this document has been created with the<br>
+        <strong class="bold">programming languagues</strong> you are going to learn.</p>
+        
+        <h2>Intro to HTML</h2>
+       
+            <h3><strong>Different character sizes</strong></h3>
+           
+                <p>There are different sizes for the characters you are using.This would<br>
+                be useful in case you want to create an Index and things like that. Examples<br>
+                would be the following ones:</p>
+       
+                <h1 class="Examples">h1 SIZE</h2>
+                <h2 class="Examples">h2 SIZE</h2>
+                <h3 class="Examples">H3 SIZE</h3>
+                <h4 class="Examples">h4 SIZE</h4>
+                <h5 class="Examples">h5 SIZE</h5>
+                <h6 class="Examples">h6 SIZE</h6>
+
+            <h3><strong>BR uses</strong></h3>
+
+                <p><strong>Example with no br:</strong></p><p class="Examples">The cake was split in two parts</p>
+                <p><strong>Example with br:</strong></p><p class="Examples">The cake was split<br>
+                in two parts</p>
+        
+            <h3><strong>Examples of order and unorder lists</strong></h3>
+
+                <p><strong>Example of order list:</strong></p></strong></p><p class="Examples">The things I need to buy:</p><ol>
+                    <li class="li">vegetables</li>
+                    <li class="li">Bread</li>
+                    <li class="li">Car</li></ol>
+                <p id="Example Id-Class"><strong>Example of unorder list:</strong></p></strong></p><p class="Examples">Usually, a car has the following things:</p><ul>
+                    <li class="li">6 windows</li>
+                    <li id="different"">4 wheels</li>
+                    <li class="li">1 broken headlight</li></ul>
+
+            <h3><strong>Images</strong></h3>
+                <img src=images/Goose.jpg alt="Just a goose that want a sandwich" width=350></img>
+                <img src=images/Goose2.jpg alt="It is a dangeours Goose" height=350></img>
+                <img src=https://www.seewinter.com/wp-content/uploads/2018/09/poolboy-hatchling-100-1200-wide.jpg alt="Turtle in the water">
+
+            <h3><strong>Bold Chraracters</strong></h3>
+                <p><strong>Example with no bold characters:</strong></p><p class="Examples">The cake was split in two parts</p>
+                <p><strong>Example with bold characters:</strong></p><p class="Examples"><strong>The cake was split in two parts</strong></p>
+        
+            <h3><strong>Italic Chraracters</strong></h3>
+                <p><strong>Example with no italic characters:</strong></p><p class="Examples">The cake was split in two parts</p>
+                <p><strong>Example with italic characters:</strong></p><p class="Examples"><em>The cake was split in two parts</em></p>
+
+            <h3><strong>Tables</strong></h3>
+                <p>For adding tables you have to write the following:</p>
+                <p class="Theory"><"table"><br>
+                    <"thead><br>
+                        <"tr"><br>
+                            <"th"><"/th"><br>
+                        <"/tr"><br>
+                    <"/thead><br>
+                    <"tbody"><br>
+                        <"tr"><br>
+                            <"td"><"/td"><br>
+                        <"/tr"><br>
+                    <"/tbody"><br>
+                <"/table"><br>
+                </p>
+                <p>An example of this would be:</p>
+
+                <table class="Examples">
+                    <thead>
+                        <tr>
+                            <th>Menu</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Spaghetti</td>
+                            <td>30$</td>
+                        </tr>
+                        <tr>
+                            <td>Fish and chips</td>
+                            <td>25$</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            <h3><strong>How to include Comments</strong></h3>
+                <p>For adding Comments you have to do the following things. Firstly, you write <strong class="bold">"<"</strong>, followed by <strong class="bold">"!--"</strong> and then<br>
+                you include the message you want to tell. After that, you finish with <strong class="bold">"-->"</strong>.</p>
+                <p>The message you write can only be see in the html code of the wegpage.</p>
+                
+            <h3><strong>How to include links to other webpages/websites and to other parts of the same website</strong></h3>
+                <p>For adding links to other pages, you have to type the following:<br>
+
+                </p>
+
+        <h2>Intro to CSS</h2>
+
+            <h3>Id and Class</h3>
+
+                <p>For adding an Id to a paragraph, for example, you need to add inside<br>
+                the <strong class="bold">"<"p">", "Id", then "=" and give a name after that between "_"</strong>. Afer that<br>
+                you just need to create inside <strong class="bold">"<"head">" "<"style">"</strong> and then add the following thing:<br>
+                
+                <p class="Theory">#name{<br>
+
+                }
+                </p>
+                <p>Same happens with Class, instead of using Id, you select it as <strong class="bold">"class"</strong> and then instead of using "#", you use "."</p>
+                <p>You can find examples of both methods in the <a href="#Example Id-Class">example of unorderlist</a>, where all the white-blue lines are inside a class,<br>
+                while the red-blue one has an id. </p>
+
+            <h3>Select by tag name</h3>
+
+                    <p>It is similar to what you have done in the previous step. However, you won't use any Id or Class.<br>
+                    You are just going to type the exact thing you want to select. For example, a paragraph: You create <br>
+                    inside <strong class="bold">"<"style">"</strong>:<br></p>
+                    <p class="Theory">p{<br>
+
+                    } </p>
+                    <p>You can see these in the titles of this webpage.</p>
+                    <p>In addition, you add properties to what you have selected, like adding colors,etc.<br>
+                        For adding colors you write inside "color:" and then "rgb()" or just the name of <br>
+                        the color
+                    </p>
+
+        <h2>Links to other pages of this website</h2>
+
+            <p>If you want to visit the main page of the website, click on the<br>
+            following link:<a href="index.html">Astronomy</a></p>
+    
+    </body>
+</html>
